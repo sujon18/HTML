@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!--declare that its html5 and opening tag of html-->
+<html lang="en"> <!-- language the html is written -->
+
+<head> <!-- opening of heading tags-->
+    <meta charset="UTF-8"> <!-- encoding methods of html 5 -->
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <!-- shape the webpage how it looks on mobile devices including other platform -->
+    <title>complete.html</title> <!-- title of the website -->
+</head> <!-- closing of heading tags-->
+
+<body> <!--opening of body tags of html-->
+    <h1>The best games of all time</h1> <!-- <h1>: opening tag, </h1>: closing tag -->
+    <!-- <h> tags are for creating headings -->
+    <h2>Top three games of all time according to my experiece</h2>
+    <img src="./assets/Gaming.gif" alt="A funny gaming gif">
+    <hr /> <!--  <hr> creates a horizontal rul(self closing tags) -->
+    <!-- <p> is to create paragraph elements and <br> is to break the lines of a paragraph-->
+    <h3>1. Dark Soul</h3>
+    <!-- img tag: < img + src+ "url tag= ./ + file location "> (it's a self closing tag) -->
+    <img src="./assets/DS.jpeg" alt="Dark Soul Cover Picture">
+    <p>
+        "Dark Souls" is a renowned action role-playing video game developed by FromSoftware. <br>
+        Launched in 2011, it quickly gained fame for its challenging gameplay, intricate world design, <br> and deep
+        lore.
+        <a href="./DS.html">Dark Souls Intro</a>
+    </p>
+
+    <h3>2. XCOM2 </h3>
+    <img src="./assets/XCOM2.jpg" alt="XCOM2 Cover Picture">
+    <p>
+        "XCOM 2" is a turn-based tactical strategy game developed by Firaxis Games and released in 2016. <br>
+        It serves as a sequel to the highly acclaimed "XCOM: Enemy Unknown" and "XCOM: Enemy Within."
+    </p>
+    <h3>3. Grand Theft Auto Vice City</h3>
+    <img src="./assets/GTA.jpeg" alt="Grand Theft Auto Cover Picture">
+    <p>
+        Vice City," released in 2002, sets the stage for an immersive and nostalgic journey into the fictional Vice
+        City,<br>
+        a sprawling metropolis heavily inspired by Miami in the 1980s. The game opens with a cinematic sequence that
+        <br>
+        plunges players into the vibrant and decadent world of crime, ambition, and power.
+    </p>
+    <!-- the list elements -->
+    <!-- ul: unorder lists, <li> : items of the lists-->
+    <h3>Some bosses of Dark Soul</h3>
+    <ul>
+        <li>Asylum Demon</li>
+        <li>Bed of chaos</li>
+        <li>Moonlight Butterfly</li>
+    </ul>
+    <!--<ol> = ordered lists -->
+    <h3>Some bossses of XCOM2</h3>
+    <ol>
+        <li>Sectoids</li>
+        <li>Vipers</li>
+        <li>Mutons</li>
+    </ol>
+    <!-- Nesting: In HTML and web development, "nesting" refers to the practice of placing
+    one HTML element inside another, forming a hierarchical structure or a parent-child relationship between elements. -->
+    <h3>Some Missions of Grand Theft Auto</h3>
+    <ul> <!-- indentation: we create one space between each different tags to increase the code read availabitly, which is call indentation -->
+        <li>The Party</li>
+        <li>Treacherous Swine</li>
+        <li>Keep Your Friends Close mission, how to guide:
+            <ul> <!-- this is list inside a list +  nesting -->
+                <li>Meet Lance Vance: Meet Lance in the office, but be cautious as he may betray you</li>
+                <li>Confront Sonny:Confront Sonny Forelli on the rooftop. You'll engage in a final showdown with him.
+                </li>
+                <li>Eliminate Sonny
+                    <ol>
+                        <li>Take out Sonny Forelli and his remaining henchmen to complete the mission.</li>
+                        <li>Use cover, aim carefully, and watch your health.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>The Job</li>
+    </ul>
+    <h3>Have a look at the following websites if you want to explore more about these games</h3>
+    <!-- anchor tags: <a + followed by href= (hypertext reference)+ "link of the website"> name of the link </a>  -->
+    <!-- draggable=true declare that this anchor tags is draggable -->
+    <a draggable="true" href="https://darksouls.fandom.com/wiki/Dark_Souls">Dark Soul More Info</a> <br/>
+    <a href="https://xcom.fandom.com/wiki/XCOM_2">XCOM2 More Info</a> <br/>
+    <a href="https://gta.fandom.com/wiki/Grand_Theft_Auto:_Vice_City">Grand Theft Auto More Info</a>
+    <!-- start -->
+    <h3>Other games you might enjoy</h3>
+    <ol start="2"> <!-- by using start we can change the order number of a ol list -->
+        <li>Hollow Knight</li>
+        <li>Mount&Blade WarBand</li>
+        <li>The Surge</li>
+        <li>Minecraft</li>
+    </ol>
+    <!-- Get a random photos from the website call lorem picsum -->
+    <h3>Random picture creator everytime web is refreshed</h3>
+    <img src="https://picsum.photos/265/376" alt="A random picture">
+</body> <!--closing of body tags of html-->
+
+</html> <!--closing tag of html-->
